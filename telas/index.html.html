@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chavinho</title>
+  
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="../assets/css/cadastra_cliente.css">
+    <link rel="stylesheet" href="../assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="../assets/css/componentes/botao.css">
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <img src="../assets/img/chaves-logo-A0E0A6F56E-seeklogo.com.png" alt="Logotipo Henry" class="cabecalho__logo">
+    
+    </header>
+    <main id="container"class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Digite o nome do Personagem</h1>
+            <div class="input-container">
+                <input name="nome" id="inputx" class="input" type="text" placeholder="Nome" required data-nome>
+                <label class="input-label" for="nome">Nome</label>
+                <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+            </div>
+                    
+               
+                <button class="botao" onclick="func()">Procurar</button>
+            
+        </section>
+       
+    </main>
+    <script src="../assets/javascript/index.js"></script>
+</body>
+
+
+</html>
